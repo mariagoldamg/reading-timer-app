@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:,">
+    
+    <title>Discussion Club</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Let's first read a story</h1>   
+    </div>
+
+    <div class="btn"><button id="reading">Start the timer</button>
+
+    </div>
+
+    <div id="container-countdown">
+
+        <button class="btn" id="countdownOne">Reading Time </button>
+     
+        <button class="btn" id="countdownTwo">Discussion Time </button>
+       </div> 
+        
+    
+       <audio id="player" autoplay loop><source src="readingMusic.mp3" type="audio/mp3"></audio>
+        <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" width="100%">
+        <source src="bookVideo.mp4" type="video/mp4" controls></video>
+        
+      
+      <div id="soundBtn">
+      <button id="myButton">Sound on</button> </div> 
+       <script src="script.js"></script>
+</body>
+</html>
